@@ -74,12 +74,12 @@ g <- ggplot(data = us_map_covid,
 g
 ggplotly(g)
 
-c <- ggplot(data = county_map_covid,
+ggplot(data = county_map_covid,
             mapping = aes(x = long, y = lat, group = group, fill = cases)) +
   geom_polygon(color = 'darkgray') +
   coord_quickmap() +
   scale_fill_continuous(low = 'lightyellow', high = 'red')
-ggplotly(c)
+
 
 
 

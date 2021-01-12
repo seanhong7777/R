@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+Knit to HTMLR: Notebook 파일(.Rmd)을 knitr 패키지를 사용해서 md 파일로 변환하고, 중간단계 파일인 md 파일을 pandoc 패키지가 html 파일로 변환해 줌줌
+
+
+```{r}
+install.packages('tinytex')
+tinytex::install_tinytex()
+
+```
+
