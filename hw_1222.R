@@ -139,3 +139,5 @@ ggChoropleth(data = state_case, map = state_map,
 
 
 
+
+
